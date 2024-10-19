@@ -1,0 +1,1349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    width: 40%;
+    height: 60%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    /* padding: 35px;
+    margin: 35px; */
+
+/* .box1{
+    width: 70%;
+    height: 70%;
+    background-color: orangered;
+}
+.span1{
+    display: inline;
+    background-color: blueviolet;
+}
+.span2{
+     display: block;
+     background-color: plum;
+}
+.span3{
+    display:inline-block;
+    background-color: peru;
+} */
+body
+{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 11%;
+    background-color: rgb(20,28,39);
+    color: rgb(169,172,176);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subnav
+{
+    width:75%;
+    height: 55%;
+    background-color: rgb(20,28,39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.icon
+{
+    width:5% ;
+    height: 100%;
+    background-color: rgb(85,230,165);
+    color: black;
+    font-size:30px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing:border-box;
+}
+.service{
+    width: 100%;
+    height:100%;
+    background-color:black;
+    color:white;
+    
+    display:grid;
+    column-gap:20p;
+}
+.servicecontainer h3
+{
+      color:RGB(85, 230, 165);
+      font-size:20px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+}
+.servicecontainer h1
+{
+    color:RGB(255, 255, 255);
+    font-size:48px;
+    font-family:Poppins sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-container{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px;
+    row-gap: 20px;
+}
+.griddiv{
+    width:75%;
+    height:100%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+   
+}
+.servicebox{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:20px;
+}
+.servicebox h3{
+    font-size:20px;
+    font-weight:500;
+    color:RGB(255, 255, 255);
+    background-color: RGBA(0, 0, 0, 0);
+   
+   
+}
+.servicebox p
+{
+    font-size:16px;
+    line-height:28px;
+    font-weight:500;
+    font-stretch:100%;
+    font-family: Poppins sans-serif;
+    color: RGB(162, 162, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+ .home 
+{
+    width:100%;
+    height:100%;
+    background-color: rgb(20,28,39);
+    color: rgb(169,172,176);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .subhome 
+{
+    width: 80%;
+    height:100%;
+    display: flex;
+    background-color: rgb(20,28,39);
+    /* background-color: aqua;  */
+     justify-content: space-between;
+    align-items: center; 
+}     
+    
+
+.home-content { 
+    width:95%;
+    height:50%;
+    background-color:  rgb(20,28,39);
+    color: white;
+    font-size:22px;
+    font: bold;
+     line-height: normal;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap:5px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    font-style: normal;
+}
+.h1
+{
+    width:85px;
+    height: 45px;
+    /* height:80px ; 
+    font-size: 60px;
+    line-height:70px;
+    font-style: normal;
+    display: flex;
+    
+
+} 
+.UIux{
+
+    /* height:100% ; */
+    background-color:  rgb(20,28,39);
+    /* color: white; */
+    font-family:"Poppins",sans-serif; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+    
+    
+}  
+.UIux{
+    width:90%;
+    color: RGB(162, 162, 162);
+    font-size:16px;
+    line-height:27.2px;
+    font-style: normal;
+    display: flex;
+    gap: 10px;
+}
+
+
+.imagecontent
+{
+    width:65%;
+    height:100%;
+    background-color:rgb(20,28,39);
+} 
+
+.subnav p:hover {
+    color: rgb(85,230,165) ;
+}
+.bannerimg{
+    width:95%;
+    height:100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.borderimg{
+    width:500px;
+    height:600px;
+}
+.insideimg{
+    position:absolute;
+}
+.cn
+{
+    width:40%;
+    background-color: rgb(85,230,165);
+    border:none;
+    font-size:25px;
+    padding:8px;
+    gap:20px;
+}
+.cn:hover {
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body
+{
+
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.about
+{
+    width:100%;
+    height:100%;
+    background-color: rgb(20,28,39);
+    color: rgb(169,172,176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content
+{
+    width:80%;
+    height:100%;
+    display: flex;
+    background-color: rgb(20,28,39);
+    justify-content: space-between;
+    align-items: center; 
+}     
+.subcontent { 
+    width:55%;
+    height:70%;
+    background-color:  rgb(20,28,39);
+    font-size:20px;
+    font: bold;
+    line-height: normal;
+    display:block;
+    flex-direction: column;
+    gap:75px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    font-style: normal;
+}
+.subcontent h3
+{
+    width:100%;
+    color: rgb(85,230,165) ;
+   
+}
+.subcontent h1
+{
+    width:95%;
+    height:35%;
+    color: white;
+    font-size:48px;
+}
+.subcontentp
+{
+    width:55%;
+    height:75%;
+    background-color: black;
+    font-family:"Poppins",sans-serif;
+
+}
+.subcontentp{
+    color:RGB(162, 162, 162);
+    font-size: 16px;
+    /* font-style: normal;
+    display: flex; */
+    display: flex;
+    
+
+}
+.imgcontent
+{
+    width:35%;
+    border-top: 20px solid aquamarine;
+    border-right: 20px solid aquamarine;
+
+   
+}
+.imgcontent img{
+    width: 100%;
+}
+.subcontentcn
+{
+    width:40%;
+    background-color: rgb(85,230,165);
+    border:none;
+    font-size:25px;
+    padding:8px;
+    gap: 20px;
+}
+.subcontentcn:hover {
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.Education
+{
+    width: 100%;
+    height:100%;
+    background-color: rgb(20,28,39) ;
+}
+.skills h3
+{
+    color: rgb(85,230,165);
+    font-size:20px;
+    font-family:Poppins sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills h1
+{
+    color:white;
+    font-size:55px;
+    font-family:Poppins sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.year
+{
+    /* width:100%;
+    height:100%; */
+    border-style: inherit;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.year{
+    width:85%;
+    height:100%;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    
+   
+}
+.wn
+{
+    width:100%;
+    background-color: rgb(85,230,165);
+    border:inherit;
+    font-size:15px;
+    padding:9px;
+    gap:20px;
+}
+.wn
+{
+    width:40%;
+    background-color:rgb(9,16,26);
+    color: rgb(85,230,165);
+    border:inherit;
+    border-top:  rgb(85,230,165);
+    font-size:25px;
+    padding:8px;
+    gap:20px;
+}
+.University h1
+{
+    color: RGB(255, 255, 255);
+    background-color: RGBA(0, 0, 0, 0);
+    font-size:42px;
+}
+.University h3
+{
+    color:  #A2A2A2;
+    background-color: RGBA(0, 0, 0, 0);
+    font-size:18px;
+    display: flex;
+    font-family:Poppins sans-serif;
+}
+
+.objective{
+    width:100%;
+    height:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px;
+    row-gap: 20px;
+}
+.objyear{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:20px;
+}
+.blog{
+    width:100%;
+    height:auto;
+    background-color: black;
+}
+.blog h3{
+    width:40%;
+    color: RGB(85, 230, 165);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.blog h1{
+    width:72%;
+    color:RGB(255, 255, 255);
+    font-size:48px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-style: normal;
+    text-decoration:none solid rgb(255, 255, 255) ;
+}
+
+.img-content{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: aqua; */
+}
+.servimg{
+    width:75%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+}
+.flexdiv{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.two{
+    width: 69%;
+    height: 100%;
+    /* display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:10px; */
+    /* background-color: orange; */
+}
+.two1{
+    width: 29%;
+    height: 100%;
+    /* display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:10px; */
+    /* background-color: blueviolet; */
+}
+.two img{
+    width: 100%;
+    height: 523px;
+}
+.two1 img{
+    width: 100%;
+    height: 523px;
+}
+.design{
+    width:100%;
+    height:100%;
+    background-color: rgb(20,28,39) ;
+   
+}
+.isubhome h1{
+    width:155%;
+    height:50%;
+    font-size:168px;
+    display: flex;
+    align-items: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.idea h2{
+    width: 135%;
+    height: 50%;
+    font-size:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;color: aliceblue;
+}
+.igrid{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px;
+    row-gap: 20px;
+}
+.brand{
+    width: 100%;
+    height:100%;
+    background-color:black;
+    color:white;
+    
+    display:grid;
+    column-gap:20p;
+}
+.new h3
+{
+    width:31%;
+      color:RGB(85, 230, 165);
+      font-size:20px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+}
+.new h1
+{
+    width:65%;
+    color:RGB(255, 255, 255);
+    font-size:48px;
+    font-family:Poppins sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commentsgrid h3{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commentsgrid p
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.camp
+{
+    position: relative;
+}
+.newyear
+{
+    top:70% ;
+    left:20%;
+    position: absolute;
+    background-color: rgb(9,16,26);
+    
+   
+}
+
+.comments{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px;
+    row-gap: 20px;
+}
+.commentsgrid{
+    width:75%;
+    height:100%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+   
+}
+.servicebox{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:20px;
+}
+.subcribe{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.subcribe h2{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.an
+{
+    width:100%;
+    background-color: rgb(85,230,165);
+    border:none;
+    font-size:15px;
+    padding:9px;
+    gap:20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* .question{
+    width:100%;
+   background-color: blanchedalmond;
+    border:none;
+    font-size:15px;
+    padding:15px;
+    gap:20px;
+
+} */
+.subcribes
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.subcribes h2
+{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lastpage
+{
+    color: white;
+}
+.last{
+    width:100%;
+    height:100%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastnum{
+    width:100%;
+    height:70%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    /* column-gap:20px;
+    row-gap: 20px; */
+}
+.lastpage{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    /* gap:20px; */
+}
+.lastcontent{
+    width:70%;
+    height:100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.lastcontent i{
+    width:60px;
+    font-size:75px;
+    color: aquamarine;
+
+}
+.lastname p{
+    width:190%;
+    height:100%;
+    font-size:20px;
+    color:#A2A2A2;
+    align-items: center;
+    justify-content:center;
+}
+.lastname h2{
+    
+    font-size: 20px;
+}
+.dell h3{
+    width:30%;
+    color:rgb(82,83,86);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastline{
+    width:40%;
+    height:90%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.lastword{
+    width:150%;
+    /* height:70%; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* column-gap:20px;
+    row-gap: 20px; */
+}
+.lastend{
+    width:120%;
+    height:160%;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.dell h3:hover {
+    color: rgb(85,230,165) ;
+}
+.wall{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: orange;
+}
+.wall.wallcont{
+    align-items: center;
+    width:50%;
+    height: 100%;
+    background-color:black;
+}
+.wall.walllarge{
+   
+    height: 50%;
+    height:100%;
+    background-color: blueviolet;
+    align-items: center;
+}
+@media(max-width:1200px)
+{
+    .logoid{
+        width:77%;
+        height:55%;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .home{
+        width: 100%;
+        height: 50%;
+    }
+    .icon
+    {
+        width:25%;
+        height: 100%;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subnav{
+        background-color:rgb(20,28,39);
+        color:rgb(20,28,39);
+    }
+    .home-content
+    {
+        width:100%;
+        height:20%;
+        font-size:40px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+       
+    }
+    .imagecontent{
+        display: none;
+    }
+    .UIux{
+        width:100%;
+        height: 100%;
+        font-size:20px;
+    }
+    .service{
+        width: 100%;
+        height:auto;
+        background-color:black;
+        color:white;
+        display:grid;
+        column-gap:50p;
+}
+.servicecontainer h3
+{
+      color:RGB(85, 230, 165);
+      font-size:20px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+}
+.servicecontainer h1
+{
+    color:RGB(255, 255, 255);
+    font-size:48px;
+    font-family:Poppins sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-container{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:30px;
+    row-gap: 30px;
+}
+.griddiv{
+    width:75%;
+    height:auto;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+   
+}
+.servicebox{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:20px;
+}
+.servicebox h3{
+    font-size:20px;
+    font-weight:500;
+    color:RGB(255, 255, 255);
+    background-color: RGBA(0, 0, 0, 0);
+   
+   
+}
+.servicebox p
+{
+    font-size:16px;
+    line-height:28px;
+    font-weight:500;
+    font-stretch:100%;
+    font-family: Poppins sans-serif;
+    color: RGB(162, 162, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about
+{
+    width:100%;
+    height:auto;
+    background-color: rgb(20,28,39);
+    color: rgb(169,172,176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.content
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    background-color: rgb(20,28,39);
+    flex-direction: column;
+    /* justify-content: space-between;
+    align-items: center;  */
+}     
+.subcontent { 
+    width:90%;
+    height:100%;
+    background-color:  rgb(20,28,39);
+    font-size:20px;
+    font: bold;
+    line-height: normal;
+    display:flex;
+    flex-direction: column;
+    /* gap:75px; */
+    font-family: "Poppins", sans-serif;
+    /* justify-content: center; */
+    font-style: normal;
+}
+.subcontent h3
+{
+    width:100%;
+    color: rgb(85,230,165) ;
+   
+}
+.subcontent h1
+{
+    width:95%;
+    height:35%;
+    color: white;
+    font-size:48px;
+}
+.subcontentp
+{
+    width:95%;
+    height:85%;
+    background-color: black;
+    font-family:"Poppins",sans-serif;
+
+}
+.subcontentp{
+    color:RGB(162, 162, 162);
+    font-size: 16px;
+    /* font-style: normal;
+    display: flex; */
+    display: flex;
+    
+
+}
+.imgcontent
+{
+    width:40%;
+    height:50%;
+    display: block;
+    border-top: 20px solid aquamarine;
+    border-right:20px solid aquamarine;
+    display: flex;
+    align-items: flex-end;
+}
+
+    .Education
+    {
+        width: 100%;
+        height:100%;
+        background-color: rgb(20,28,39) ;
+    }
+    .skills h3
+    {
+        color: rgb(85,230,165);
+        font-size:20px;
+        font-family:Poppins sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skills h1
+    {
+        color:white;
+        font-size:55px;
+        font-family:Poppins sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+/* .wn
+{
+    width:150%;
+    background-color: rgb(85,230,165);
+    border:inherit;
+    font-size:15px;
+    padding:9px;
+    gap:20px;
+} */
+.wn
+{
+    width:50%;
+    height: 150%;
+    background-color:rgb(9,16,26);
+    color: rgb(85,230,165);
+    /* border:inherit; */
+    border-top:  rgb(85,230,165);
+    font-size:25px;
+    /* padding:8px;
+    gap:20px; */
+}
+.University h1
+{
+    color: RGB(255, 255, 255);
+    background-color: RGBA(0, 0, 0, 0);
+    font-size:42px;
+}
+.University h3
+{
+    color:  #A2A2A2;
+    background-color: RGBA(0, 0, 0, 0);
+    font-size:18px;
+    display: flex;
+    font-family:Poppins sans-serif;
+}
+
+.objective{
+    width:100%;
+    height:60%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    column-gap:20px;
+    row-gap: 20px;
+}
+.objyear{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:20px;
+}
+.year
+{
+    /* width:100%;
+    height:100%; */
+    border-style: inherit;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.year{
+    width:85%;
+    height:100%;
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+}
+.blog{
+    width:100%;
+    height:auto;
+    background-color: black;
+}
+.blog h3{
+    width:60%;
+    color: RGB(85, 230, 165);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.blog h1{
+    width:120%;
+    color:RGB(255, 255, 255);
+    font-size:48px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-style: normal;
+    text-decoration:none solid rgb(255, 255, 255) ;
+}
+.img-content{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.servimg{
+    width:75%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+}
+.flexdiv{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.two{
+    width:50%;
+    height: 50%;
+    
+}
+.two1{
+    width:50%;
+    height:50%;
+}
+.two img{
+    width: 90%;
+    height:323px;
+}
+.two1 img{
+    width:140%;
+    height: 323px;
+}
+.brand{
+    width: 100%;
+    height:100%;
+    background-color:black;
+    color:white;
+     display:grid;
+    column-gap:20p;
+}
+.new h3
+{
+    width:41%;
+      color:RGB(85, 230, 165);
+      font-size:20px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+}
+.new h1
+{
+    width:103%;
+    color:RGB(255, 255, 255);
+    font-size:48px;
+    font-family:Poppins sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comments{
+    width:100%;
+    height:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px;
+    row-gap: 20px;
+}
+.commentsgrid{
+    width:85%;
+    height:210%;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    row-gap:60px;
+   
+}
+.camp
+{
+    position: relative;
+}
+.newyear
+{
+    top:60% ;
+    left:20%;
+    position: absolute;
+    background-color: rgb(9,16,26);
+}
+.subcribes
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.subcribes h2
+{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lastpage
+{
+    color: white;
+}
+.last{
+    width:100%;
+    height:100%;
+    /* display: grid; */
+    /* grid-template-columns:repeat(0,1fr); */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.lastnum{
+    width:100%;
+    height:70%;
+    /* display: flex;
+    align-items: center;
+    justify-content:space-evenly; */
+   
+}
+.lastpage{
+    width: 100%;
+    height:100%;
+    /* display: flex;
+    align-items:center;
+    justify-content:center; */
+    /* flex-direction: column; */
+    /* gap:20px; */
+}
+.lastcontent{
+    width:70%;
+    height:100%;
+    /* display: flex;
+    align-items:center;
+    justify-content:space-between; */
+}
+.lastcontent i{
+    width:60px;
+    font-size:75px;
+    color: aquamarine;
+
+}
+.lastname p{
+    width:190%;
+    height:100%;
+    font-size:20px;
+    color:#A2A2A2;
+    /* align-items: center;
+    justify-content:center; */
+}
+.lastname h2{
+    
+    font-size: 20px;
+}
+
+
+}
+@media(max-width:600px)
+{
+    .logoid{
+        width:77%;
+        height:55%;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .icon
+    {
+        width:100%;
+        height: 80%;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subnav{
+        background-color:rgb(20,28,39);
+        color:rgb(20,28,39);
+    }
+    .home-content
+    {
+        width:170%;
+        height:150%;
+        font-size:100px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    
+    .imagecontent{
+        display: none;
+    }
+    .UIux{
+        width:100%;
+        height: 100%;
+        font-size:20px;
+    }
+    .service{
+        width: 100%;
+        height: 80%;
+        background-color:black;
+     color:white;
+     display:grid;
+     column-gap:50p;
+}
+}
