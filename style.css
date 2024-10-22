@@ -1209,8 +1209,8 @@ a {
   }
   .home-content {
     width:200%;
-    height: 100%;
-    font-size:0px;
+    height:100%;
+    font-size:250px;
     /* display: flex;
         justify-content: center;
         align-items: center; */
